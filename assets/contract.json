@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "name": "contract",
+  "instructions": [
+    {
+      "name": "initialize",
+      "accounts": [],
+      "args": []
+    },
+    {
+      "name": "publicFunction",
+      "accounts": [],
+      "args": []
+    }
+  ]
+}
