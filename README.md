@@ -43,10 +43,10 @@ Here are some key points to know about this:
 
 Here is a summary of the different visibility levels available for functions in **Solidity**:
 
-- **External (`external`)**: External functions are similar to public functions, but they can only be called from outside the blockchain (*i.e., by other contracts or external transactions*). They cannot be called from within the contract that defines them.
-- **Public (`public`)**: Public functions can be called from anywhere, both within the contract that defines them and from other contracts or outside the blockchain. They are typically used to define entry points for interacting with the contract.
-- **Private (`private`)**: Private functions can only be called from other functions defined within the same contract. They are not accessible from outside the contract or from other contracts. They are typically used to encapsulate the internal logic of the contract and to avoid external interference.
-- **Internal (`internal`)**: Internal functions are similar to private functions, but they can also be called from derived contracts (*inherited*). They are not accessible from outside the contract.
+- **`external`**: External functions are similar to public functions, but they can only be called from outside the blockchain (*i.e., by other contracts or external transactions*). They cannot be called from within the contract that defines them.
+- **`public`**: Public functions can be called from anywhere, both within the contract that defines them and from other contracts or outside the blockchain. They are typically used to define entry points for interacting with the contract.
+- **`private`**: Private functions can only be called from other functions defined within the same contract. They are not accessible from outside the contract or from other contracts. They are typically used to encapsulate the internal logic of the contract and to avoid external interference.
+- **`internal`**: Internal functions are similar to private functions, but they can also be called from derived contracts (*inherited*). They are not accessible from outside the contract.
 
 ### Example in Solidity
 
@@ -124,7 +124,7 @@ Here are some key points to know:
  accounts needed to execute the function.
 - **Instruction Functions**: Functions marked with the `#[instruction]` attribute are Solana contract instructions that can be called from outside the chain. They define the functionalities and actions of the contract.
 - **Verification Functions**: Verification functions are used to validate transactions and can be marked with the `#[instruction]` attribute to indicate that they are called as instructions, or with the `#[guard]` attribute to indicate that they are used for validation only.
-- **Account Management**: Anchor facilitates the management of accounts needed to execute functions using the `#[derive(Accounts)]` attribute, which specifies the accounts involved in a transaction and their role (*e.g., source account, destination account, contract state account, etc.*).
+- **Account Management**: Anchor facilitates the management of accounts needed to execute functions using the `#[derive(Accounts)]` attribute, which specifies the accounts involved in a transaction and their role (*e.g. source account, destination account, contract state account, etc.*).
 
 ### Visibility with Rust & Anchor
 
