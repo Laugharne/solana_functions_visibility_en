@@ -1,7 +1,7 @@
 # Solana / Ethereum: Function Visibility
 
 ![](assets/pexels-james-frid.jpg)
-(*Photo : James Frid - [Pexels](https://www.pexels.com/fr-fr/photo/telescope-gris-et-or-sur-batiment-901974/)*)
+(*Photo: James Frid - [Pexels](https://www.pexels.com/fr-fr/photo/telescope-gris-et-or-sur-batiment-901974/)*)
 
 
 ## TL;DR
@@ -389,15 +389,15 @@ Feel free to check out my previous articles on [**Medium**](https://medium.com/@
 
 ## Additional Resources
 
-- **Blockchains :**
+- **Blockchains:**
   - [Home | ethereum.org](https://ethereum.org)
   - [Web3 Infrastructure for Everyone | Solana](https://solana.com/)
 
-- **Solidity :**
+- **Solidity:**
   - [Home | Solidity Programming Language](https://soliditylang.org/)
   - [Solidity - Wikipedia](https://en.wikipedia.org/wiki/Solidity)
 
-- **Rust :**
+- **Rust:**
   - [Rust (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))
   - [Rust Programming Language](https://www.rust-lang.org/)
   - [Visibility and privacy - The Rust Reference](https://doc.rust-lang.org/beta/reference/visibility-and-privacy.html)
@@ -405,33 +405,33 @@ Feel free to check out my previous articles on [**Medium**](https://medium.com/@
   - [mod - Rust](https://doc.rust-lang.org/std/keyword.mod.html)
   - [Macros - The Rust Programming Language](https://doc.rust-lang.org/book/ch19-06-macros.html)
 
-- **Anchor :**
+- **Anchor:**
   - [Anchor - Introduction](https://www.anchor-lang.com/)
   - [Anchor By Example - Introduction](https://examples.anchor-lang.com/)
   - [program in anchor_lang - Rust](https://docs.rs/anchor-lang/latest/anchor_lang/attr.program.html)
   - [Visibility and "inheritance" in Rust and Solana](https://www.rareskills.io/post/rust-function-visibility)
   - [GitHub - coral-xyz/anchor: ⚓ Solana Sealevel Framework](https://github.com/coral-xyz/anchor)
 
-- **IDL :**
+- **IDL:**
   - [Interface description language - Wikipedia](https://en.wikipedia.org/wiki/Interface_description_language)
   - [What is an IDL?](https://www.quicknode.com/guides/solana-development/anchor/what-is-an-idl)
   - [SolDev - Intro to client-side Anchor development](https://www.soldev.app/course/intro-to-anchor-frontend)
 
-- **Seahorse :**
+- **Seahorse:**
   - [Seahorse (Beta) | Solana programs in Python](https://seahorse-lang.org/)
   - [Solana Bytes - Intro to Seahorse - YouTube](https://www.youtube.com/watch?v=Wt3kcIb98Do)
 
-- **Solang :**
+- **Solang:**
   - [Getting started with Solang | Solana](https://solana.com/developers/guides/solang/getting-started)
   - [Solang Solidity Compiler — Solang Solidity Compiler documentation (latest)](https://solang.readthedocs.io/en/latest/)
   - [The LLVM Compiler Infrastructure Project](https://www.llvm.org/)
 
-- **Sandbox :**
+- **Sandbox:**
   - [Remix - Ethereum IDE](https://remix.ethereum.org/)
   - [Solana Playground | Solana IDE](https://beta.solpg.io/)
   - [Compiler Explorer (for Rust 🦀)](https://godbolt.org/)
 
-- **Naming convention :**
+- **Naming convention:**
   - [Snake case - Wikipedia](https://en.wikipedia.org/wiki/Snake_case)
   - [Camel case - Wikipedia](https://en.wikipedia.org/wiki/Camel_case)
   - [What is the lowerCamelCase naming convention?](https://www.techtarget.com/whatis/definition/lowerCamelCase)
